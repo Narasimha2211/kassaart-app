@@ -1,16 +1,54 @@
-# React + Vite
+# Kassaart Interior Designers — Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website built for an interior design firm based in Hyderabad, India.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Single Page Application with smooth animated page transitions
+- Dark luxury theme with gold accents
+- Fully responsive — desktop, tablet, and mobile
+- Functional contact form with real-time validation
+- Interactive FAQ accordion
+- Visual 5-step design process timeline
+- Client testimonials with star ratings
+- Custom page loader animation with company branding
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19**
+- **Vite 6**
+- **CSS-in-JS** (embedded via GlobalStyles component)
+- **Google Fonts** — Cormorant Garamond + Montserrat
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repo
+git clone https://github.com/Narasimha2211/kassaart-app.git
+cd kassaart-app
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+## Project Structure
+
+```
+kassaart-app/
+├── public/
+│   └── logo.png
+├── src/
+│   ├── App.jsx        # All components and pages
+│   └── main.jsx       # Entry point
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+## Created By
+
+**Narasimha Reddy Kasarla**  
+GitHub: [@Narasimha2211](https://github.com/Narasimha2211)
