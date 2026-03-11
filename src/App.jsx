@@ -964,7 +964,7 @@ const AboutPage = ({ onNav }) => {
                 We create spaces that are elegant, functional, and luxurious — environments that don't just impress at first glance, but reveal new layers of beauty the longer you inhabit them. Every project is a collaboration rooted in trust, creativity, and an obsessive commitment to craft.
               </p>
               <div className="about-story-signature" style={{ marginTop:36 }}>
-                <div className="about-story-sig-name">Arjun Kassaart</div>
+                <div className="about-story-sig-name">Nikhil Bairi</div>
                 <div className="about-story-sig-role">Founder & Principal Designer</div>
               </div>
             </div>
